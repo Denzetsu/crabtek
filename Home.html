@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Final Project</title>
+  <style>
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 0;
+    }
+
+
+    .navbar {
+      overflow: hidden;
+      background-color: #fee834;
+
+
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 26px;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 26px;
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: orange;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rbga(0, 0, 0, 0, 2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: orange;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+
+    }
+
+    .column {
+      float: left;
+
+
+    }
+
+    .column a {
+      float: none;
+      color: black;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+
+    }
+
+    p.big {
+      line-height: 0.5;
+    }
+
+
+
+    .icon {
+      float: left;
+      width: 2.7%;
+      height: 5%;
+      margin-left: 7px;
+      margin-top: 2px;
+
+    }
+
+
+    .title {
+      width: 100%;
+      font-size: 100 px;
+      line-height: 100 px;
+      top: 80px;
+      top: 80px;
+      text-align: center;
+    }
+
+    div.b {
+      position: absolute;
+      right: 0;
+      width: 100px;
+      height: 120px;
+    }
+
+    .block {
+      display: block;
+      width: 30%;
+      height: 100px;
+      border: none;
+      background-color: #FFA500;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .block:hover {
+      background-color: #FFFF00;
+      color: black;
+    }
+
+    table,
+    th,
+    td {
+      border-spacing: 20px;
+      margin-top: 8%;
+    }
+
+    footer {
+      margin-top: 70px;
+      text-align: left;
+      padding: 100px;
+      background-color: grey;
+      color: white;
+      height: 220px;
+
+    }
+
+    .box {
+      width: 100%;
+      height: 650px;
+      padding: 100px;
+      background-size: cover;
+
+    }
+
+
+    .bx {
+      width: 750px;
+      height: 300px;
+      box-shadow: 0px 0px 10px 2px grey;
+      background-size: cover;
+    }
+
+    .body {
+      background-position: center;
+      width: 100%;
+
+    }
+  </style>
+</head>
+
+<center>
+
+  <body background="img/bg2.png">
+
+    <div class="navbar">
+      <img src="img\logo.png" class="icon">
+      <a href="home.html" id="home"> CrabTek </a>
+      <a href="about.html" id="about"> About </a>
+      <div class="dropdown">
+        <button class="dropbtn" id="shop"> Categories
+          <i class="menu "></i>
+        </button>
+        <div class="dropdown-content">
+          <div class="row">
+            <div class="column">
+              <a href="categories.html#electric">Electrical</a>
+              <a href="categories.html#lighting">Lighting</a>
+              <a href="#categories.html#cam">IP Camera & Lock</a>
+            </div>
+            <div class="column">
+              <a href="categories.html#sensors">Sensors</a>
+              <a href="categories.html#homeapp">Home Appliances</a>
+              <a href="categories.html#gateway">Gateway Control</a>
+            </div>
+            <div class="column">
+              <a href="categories.html#pets">Pets</a>
+              <a href="categories.html#exercise">Exercise & Health</a>
+              <a href="categories.html#outdoor">Outdoor & Travel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="User-table.php" id="customer"> Customers </a>
+    </div>
+
+
+
+    <div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner1.png" width="100%" height="500%">
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <Center>
+    <div class="bx">
+      <table style="height:100%">
+        <tr>
+          <th width="10%">
+            <image src="img/logo.png">
+          <th width="30%">
+            <p align="center,justify" style="font-family:'Courier New'"> Crabtek is dedicated to bringing smart home
+              supplies and AIoT products in the Philippines by partnering with
+              world's top high technology companies, we focus on empowering every Filipino family to live smarter.</p>
+          </th>
+    </div>
+    </table>
+  </center>
+
+  <br><br><br><br><br>
+
+  <table style="width:90%; margin-top:30px">
+    <tr>
+      <image src="img/bs.png" width="500px" height="60px">
+        <th height="250" width="20%">
+          <a
+            href="https://shopee.ph/CrabTek-WiFi-Smart-LED-RGB-Light-Bulb-7w-9w-10w-12w-Color-Changing-Voice-Control-Music-Siri-i.385106196.6891778352">
+            <image src="img/1.png" width="100%" height="450">
+          </a>
+        </th>
+        <th height="250" width="20%"><a
+            href="https://www.lazada.com.ph/products/crabtek-wifi-smart-socket-original-wifi-smart-plug-with-timer-and-voice-control-command-works-with-amazon-echo-alexa-and-google-home-siri-i2043031273.html">
+            <image src="img/2.png" width="100%" height="450">
+          </a></th>
+        <th height="250" width="20%"><a
+            href="https://shopee.ph/CrabTek-Smart-Cctv-1080p-360-Degrees-with-Night-Vision-Camera-Home-Pan-Tilt-Zoom-Speed-14s-i.385106196.10507163076">
+            <image src="img/3.png" width="100%" height="450">
+          </a></th>
+        <th height="250" width="20%"><A
+            href="https://www.lazada.com.ph/products/crabtek-smart-robot-automatic-vacuum-cleaner-sweep-vacuum-app-control-google-assistant-siri-mop-and-hd-camera-robot-vacuum-cleaner-with-position-memory-schedule-cleaning-hepa-filter-ultra-fine-air-filter-a3cbl-i1819589617.html">
+            <image src="img/4.png" width="100%" height="450">
+          </a></th>
+
+    </tr>
+
+  </table>
+
+
+  <div class="box" style="margin-top: 0; margin-left: -105px;">
+
+    <button class="block" onclick="window.location.href='https://crabtekmall.com/h5/pages/index/index'">
+      <h1>CrabTek Mall</h1>
+    </button>
+    <Br><br><Br>
+    <button class="block">
+      <h1>Products</h1>
+    </button>
+
+
+
+    <p style="background-image: url('bg1.jpg'); width:100%">
+    <table style="width:80%">
+      <th>
+        <image src="img/banner2.png" width="800px" height="400px">
+      </th>
+      <th style="width:100%">
+        <img src="img/crabtek.png">
+  </div>
+  <p><br>Professional Online Shopping Platform for IOT Product
+    <br> <br>Strategically Partnering with numbers of IOT <br><br>Companies Globally
+    First choice for IOT shopping
+  </p>
+  </th>
+  </table>
+  </p>
+
+  </div>
+
+
+
+
+
+  <table style="width:50% ">
+    <tr>
+      <td> </td>
+      <td>
+        <Center>
+          <h1> Our Services </h1>
+        </center>
+      </td>
+    </tr>
+
+    <tr style="height:300px">
+      <td style="height:50%" width="250px">
+        <center>
+          <image src="img/os.jpg" width="150" height="150">
+            <h2>
+              Online assistant</h2>
+            <p style="font-family:'Courier New'">We offer online assistant for customer's inquiries and suggestions
+            <h3>
+              </p>
+      </td>
+      <td style="height:50%" width="250px">
+        <center>
+          <image src="img/osh.jpg" width="150" height="150">
+            <h2>Online shop </H2>
+            <p style="font-family:'Courier New'">We provide online shop for customers to access online our products
+              </h4>
+            </p>
+      </td>
+      <td style="height:50%" width="250px">
+        <center>
+          <image src="img/sm.jfif" width="150" height="150">
+            <H2>Social media</h2>
+            <p style="font-family:'Courier New'">We provide social media updates for customers on our products and
+              services</h4>
+            </p>
+      </td>
+    </tr>
+</center>
+
+</table>
+</center>
+
+</center>
+</center>
+<footer>
+
+  <pre><H1>     Dev team									Socials	</h1>
+<h2>	Andrei Nad	    Ruzzel Pantino	 Darren Sabado II				       	<a href="https://www.facebook.com/crabtekhomeph/"><image src="img/f.jfif" width="50" height="50"></a>	<a href="https://www.instagram.com/crabtekhome/"><image src="img/i.png" width="50" height="50"></a>
+	Arturo Dominguez    Jericho Tamesis  	 Kenneth Sudla								
+	Denzel Dela Cruz    Rendrix Samoramos<pre>
+	
+							
+										ⓒ 2022 All rights reserved
+
+</footer>
+</html>

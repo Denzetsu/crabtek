@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Categories</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+
+        .navbar {
+            overflow: hidden;
+            background-color: #fee834;
+
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 26px;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 26px;
+            border: none;
+            outline: none;
+            color: black;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: orange;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rbga(0, 0, 0, 0, 2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: orange;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+
+        }
+
+        .column {
+            float: left;
+
+
+        }
+
+        .column a {
+            float: none;
+            color: black;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+
+        }
+
+        .icon {
+            float: left;
+            width: 2.7%;
+            height: 5%;
+            margin-left: 7px;
+            margin-top: 2px;
+
+        }
+
+        .container {
+            overflow: hidden;
+            margin: 35px auto;
+            width: 100%;
+        }
+
+        .electrical {
+            width: 100%;
+            margin: 20px 0 20px 0;
+        }
+
+        .lighting {
+            width: 100%;
+            margin: 20px 0 20px 0;
+        }
+
+        .cam {
+            width: 100%;
+            margin: 20px 0 20px 0;
+        }
+    </style>
+</head>
+
+<body background="img/bg3.png">
+    <div class="navbar">
+        <img src="img\logo.png" class="icon">
+        <a href="home.html" id="home"> CrabTek </a>
+        <a href="about.html" id="about"> About </a>
+        <div class="dropdown-content">
+            <a href="about.html#history">History</a>
+            <a href="about.html#chart">Organizational Chart</a>
+            <a href="about.html#mission">Mission</a>
+            <a href="about.html#vision">Vision</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="shop"> Categories
+                <i class="menu "></i>
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <a href="categories.html#electric">Electrical</a>
+                        <a href="categories.html#lighting">Lighting</a>
+                        <a href="categories.html#cam">IP Camera & Lock</a>
+                    </div>
+                    <div class="column">
+                        <a href="categories.html#sensors">Sensors</a>
+                        <a href="categories.html#homeapp">Home Appliances</a>
+                        <a href="categories.html#gateway">Gateway Control</a>
+                    </div>
+                    <div class="column">
+                        <a href="categories.html#pets">Pets</a>
+                        <a href="categories.html#exercise">Exercise & Health</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="User-table.php" id="customer"> Customers </a>
+    </div>
+    <div>
+        <center>
+            <h1>CATEGORIES</h1>
+            <hr style="height:5px;border-width:0;background-color:black; width: 80%">
+            <h1 id="electric"> Electrical </h1>
+            <div style="background-color:white; width:80%">
+                <hr style="height:5px;border-width:0;background-color:black">
+                <h2> Indoor Outlets </h2>
+
+                <table align="center">
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647853738882188.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647854015239289.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647854152463099.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647854228887073.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647854547796192.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">Smart Plugs</td>
+                        <td align="center">Wall Current Taps</td>
+                        <td align="center">Power Strips</td>
+                        <td align="center">Wall Sockets</td>
+                        <td align="center">Scene Light Sockets</td>
+                    </tr>
+                </table>
+
+                <hr style="height:2px;border-width:0;background-color:black">
+
+                <h2> Outdoor Outlets </h2>
+                <table align="center">
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647854517169419.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647854697889641.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">Outdoor Plugs</td>
+                        <td align="center">Courtyard Sockets</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+
+                <hr style="height:2px;border-width:0;background-color:black">
+
+                <h2> Switches </h2>
+                <table align="center">
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647855845209740.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647855872765013.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647855884505961.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647855945992063.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647855958132200.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr height="50px">
+                        <td align="center" valign="top">Light Switches</td>
+                        <td align="center" valign="top">Dimmer Switches</td>
+                        <td align="center" valign="top">Scene Switches</td>
+                        <td align="center" valign="top">3-Way Light Switches</td>
+                        <td align="center" valign="top">Hotel Key Card Switches</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647855970334409.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647856002844584.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647856043604426.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647856061533593.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647856072366576.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr height="50px">
+                        <td align="center" valign="top">Speed Fan Control</td>
+                        <td align="center" valign="top">Curtain Switches</td>
+                        <td align="center" valign="top">Water heater Switch</td>
+                        <td align="center" valign="top">Wireless Switch</td>
+                        <td align="center" valign="top">Motion Switch</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+
+                <hr style="height:2px;border-width:0;background-color:black">
+                <h2> Controllers </h2>
+                <table align="center">
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647863967113502.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647863980669131.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647863994585871.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647864009827348.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647864031363841.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr height="50px">
+                        <td align="center" valign="top">Outdoor Watering Controllers</td>
+                        <td align="center" valign="top">Garage Door Openers</td>
+                        <td align="center" valign="top">Mechanical Arms</td>
+                        <td align="center" valign="top">Water Pressure Regulators</td>
+                        <td align="center" valign="top">Ventilation Control Panels</td>
+                </table>
+
+                <table align="center">
+                    </tr>
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647864051498283.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647864064969206.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647864079855370.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647864095183559.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr height="50px">
+                        <td align="center" valign="top">HVAC Thermostats</td>
+                        <td align="center" valign="top">Remote Control Switches</td>
+                        <td align="center" valign="top">Wireless Doorbell</td>
+                        <td align="center" valign="top">Indoor Watering Device</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+
+                <hr style="height:2px;border-width:0;background-color:black">
+                <h2> Circuit Breaker </h2>
+                <table align="center">
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647865534227573.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">Air-break Switch</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+
+
+                <hr style="height:2px;border-width:0;background-color:black">
+                <h2> Meters </h2>
+                <table align="center">
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647865734852512.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647865758656077.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">Water Meters</td>
+                        <td align="center">Electric Energy Meters</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+
+                <hr style="height:2px;border-width:0;background-color:black">
+                <h2> Digital & Power </h2>
+                <table align="center">
+                    <tr>
+                        <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220321/1647866055337626.png"
+                                width="200" height="200" style="margin:0px 50px"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">Digital & Power</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+
+                <hr style="height:5px;border-width:0;background-color:black">
+            </div>
+
+
+            <div id="lighting">
+                <h1> Lighting </h1>
+                <div style="background-color:white; width:80%">
+                    <hr style="height:5px;border-width:0;background-color:black">
+                    <h2> Lighting Source </h2>
+
+                    <table align="center">
+                        <tr>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648115138606110.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648115277781862.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648115482436137.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648115571695817.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648115692473338.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">Light Bulbs</td>
+                            <td align="center">LED Filament Bulbs</td>
+                            <td align="center">LED Candle Bulbs</td>
+                            <td align="center">GU10 Bulbs</td>
+                            <td align="center">Tube Lights</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+
+                    <hr style="height:2px;border-width:0;background-color:black">
+                    <h2> Ambient Lighting </h2>
+
+                    <table align="center">
+                        <tr>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648115766423835.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648122589194475.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648122725203789.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">Strip Lights</td>
+                            <td align="center">String Lights</td>
+                            <td align="center">Light Bar</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+
+                    <hr style="height:2px;border-width:0;background-color:black">
+                    <h2> Indoor Lighting </h2>
+
+                    <table align="center">
+                        <tr>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648122848606981.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648123556891340.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648123703225962.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">Ceiling Lights</td>
+                            <td align="center">Night Lights</td>
+                            <td align="center">Table Lamps</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+
+                    <hr style="height:2px;border-width:0;background-color:black">
+                    <h2> Outdoor Lighting </h2>
+
+                    <table align="center">
+                        <tr>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648123884351345.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648124040391095.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648124198947165.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648124269515113.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">Lawn Lights</td>
+                            <td align="center">Flood Lights</td>
+                            <td align="center">Outdoor Wall Lights</td>
+                            <td align="center">Pillar Lights</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+
+                    <hr style="height:2px;border-width:0;background-color:black">
+                    <h2> Professional Lighting </h2>
+
+                    <table align="center">
+                        <tr>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648124437299155.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648124479968155.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">High Bay Lights</td>
+                            <td align="center">Plant Grow Lights</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+
+                    <hr style="height:2px;border-width:0;background-color:black">
+                    <h2> Lighting Accessories </h2>
+
+                    <table align="center">
+                        <tr>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648124585684912.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648124662433666.png"
+                                    width="200" height="200" style="margin:0px 50px"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">LED Driver</td>
+                            <td align="center">LED Controller</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+
+                    <hr style="height:5px;border-width:0;background-color:black">
+
+                </div>
+
+                <div id="cam">
+                    <h1> IP Camera & Lock </h1>
+                    <div style="background-color:white; width:80%">
+                        <hr style="height:5px;border-width:0;background-color:black">
+
+                        <h2> Smart Door Lock </h2>
+                        <table align="center">
+                            <tr>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648124809335083.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648199552540503.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648199693192825.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                            </tr>
+                            <tr height="50px">
+                                <td align="center" valign="top">Handle Door Lock</td>
+                                <td align="center" valign="top">Mini Handle Lock</td>
+                                <td align="center" valign="top">Residential Locks</td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648199809261148.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648199952482156.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200082792017.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                            </tr>
+                            <tr height="50px">
+                                <td align="center" valign="top">Hotel/Apartment Lock</td>
+                                <td align="center" valign="top">Knob Lock/Ball Lock</td>
+                                <td align="center" valign="top">Lock Accessories</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+
+
+                        <hr style="height:2px;border-width:0;background-color:black">
+                        <h2> Smart Cameras </h2>
+                        <table align="center">
+                            <tr>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200200273046.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200251131914.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200549297789.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200588804268.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                            </tr>
+                            <tr height="50px">
+                                <td align="center" valign="top">Battery Camera</td>
+                                <td align="center" valign="top">Video Doorbells</td>
+                                <td align="center" valign="top">Video Intercom</td>
+                                <td align="center" valign="top">Peephole Camera</td>
+                            </tr>
+                        </table>
+
+                        <table align="center">
+                            <tr>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200722138256.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200780297180.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200813214889.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                            </tr>
+                            <tr height="50px">
+                                <td align="center" valign="top">DVR/NVR Recorder</td>
+                                <td align="center" valign="top">IPC Build In Access Control</td>
+                                <td align="center" valign="top">Others</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+
+
+                        <hr style="height:2px;border-width:0;background-color:black">
+                        <h2> Dash Camera </h2>
+                        <table align="center">
+                            <tr>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648200892360179.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                            </tr>
+                            <tr height="50px">
+                                <td align="center" valign="top">Car Camera</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+
+
+                        <hr style="height:2px;border-width:0;background-color:black">
+                        <h2> Various Lock </h2>
+
+                        <table align="center">
+                            <tr>
+                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648201103590563.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648201160876235.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648201198166219.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648201228118411.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center">Key Box</td>
+                                <td align="center">Padlock</td>
+                                <td align="center">Box Lock</td>
+                                <td align="center">Transportation Lock</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+
+
+                        <hr style="height:2px;border-width:0;background-color:black">
+                        <h2> Door Access </h2>
+                        <table align="center">
+                            <tr>
+                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648201378471964.png"
+                                        width="200" height="200" style="margin:0px 50px"></td>
+                            </tr>
+                            <tr height="50px">
+                                <td align="center" valign="top">Door Access</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+
+
+                        <hr style="height:5px;border-width:0;background-color:black">
+                    </div>
+
+                    <div id="sensors">
+                        <h1>Sensors</h1>
+                        <div style="background-color:white; width:80%">
+                            <hr style="height:5px;border-width:0;background-color:black">
+                            <h2> Infrared Sensors </h2>
+
+                            <table align="center">
+                                <tr>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648125075573734.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648202324372600.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648202385389609.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648202421494562.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">Door/Window Sensor</td>
+                                    <td align="center">PIR Motion Detector</td>
+                                    <td align="center">Water Leak Detector</td>
+                                    <td align="center">Occupanc & Vacancy Sensor</td>
+                                </tr>
+                            </table>
+
+                            <table align="center">
+                                <tr>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648202465254991.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648202631974723.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648202706777403.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648202740469904.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">Vibration Sensor</td>
+                                    <td align="center">Strobe Siren</td>
+                                    <td align="center">Switch Button</td>
+                                    <td align="center">Glass Break Sensor</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <br>
+
+
+                            <hr style="height:2px;border-width:0;background-color:black">
+                            <h2> Fire Fighting </h2>
+
+                            <table align="center">
+                                <tr>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648205357470770.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648205411111190.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648205449938406.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648205469958074.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">Smoke Alarm/Detector</td>
+                                    <td align="center">Gas Alarm/Detector</td>
+                                    <td align="center">Fire Alarm/Detector</td>
+                                    <td align="center">CO Alarm/Detector</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <br>
+
+
+                            <hr style="height:2px;border-width:0;background-color:black">
+                            <h2> Alarm (System) Hub </h2>
+                            <table align="center">
+                                <tr>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648206584317761.png
+			" width="200" height="200" style="margin:0px 50px"></td>
+                                </tr>
+                                <tr height="50px">
+                                    <td align="center" valign="top">Alarm Hub</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <br>
+
+
+                            <hr style="height:2px;border-width:0;background-color:black">
+                            <h2> Thermostat </h2>
+
+                            <table align="center">
+                                <tr>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648205815857994.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648205957163382.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648205988495756.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648206027824346.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648206069568441.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+
+                                </tr>
+                                <tr>
+                                    <td align="center">Thermostat</td>
+                                    <td align="center">Thermostat Radiator Valve</td>
+                                    <td align="center">Electric Heating Thermostat</td>
+                                    <td align="center">Water Health Thermostat</td>
+                                    <td align="center">Boiler Thermostat</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648206097524344.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">Fan Coil Thermostat</td>
+                                </tr>
+
+
+                            </table>
+                            <br>
+                            <br>
+
+
+                            <hr style="height:2px;border-width:0;background-color:black">
+                            <h2> Environment Sensor </h2>
+
+                            <table align="center">
+                                <tr>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648206794500957.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648206844903098.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648206874576218.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648206919704837.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">Weather Station</td>
+                                    <td align="center">Temperature and Humidity Sensor</td>
+                                    <td align="center">Luminance Sensor</td>
+                                    <td align="center">Air Quality Monitor</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <br>
+
+
+                            <hr style="height:2px;border-width:0;background-color:black">
+                            <h2> Multi-function Sensor </h2>
+                            <table align="center">
+                                <tr>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207005801717.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                </tr>
+                                <tr height="50px">
+                                    <td align="center" valign="top">Security Sensor</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <br>
+
+
+                            <hr style="height:2px;border-width:0;background-color:black">
+                            <h2> Sensor Kits </h2>
+                            <table align="center">
+                                <tr>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207153986827.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                    <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207198502085.png"
+                                            width="200" height="200" style="margin:0px 50px"></td>
+                                </tr>
+                                <tr height="50px">
+                                    <td align="center" valign="top">Security Sensor Kits</td>
+                                    <td align="center" valign="top">Environment Sensor Kits</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <br>
+
+
+                            <hr style="height:5px;border-width:0;background-color:black">
+                        </div>
+
+                        <div id="homeapp">
+                            <h1>Home Appliances</h1>
+                            <div style="background-color:white; width:80%">
+                                <hr style="height:5px;border-width:0;background-color:black">
+                                <h2> Household Appliances </h2>
+
+                                <table align="center">
+                                    <tr>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648126229284791.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207577275340.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207616442155.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207680338164.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207715476455.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td align="center">Air Purifier</td>
+                                        <td align="center">Robot Vacuum Cleaner</td>
+                                        <td align="center">Humidifier</td>
+                                        <td align="center">Heater</td>
+                                        <td align="center">Fan</td>
+
+                                    </tr>
+                                </table>
+
+                                <table align="center">
+                                    <tr>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207815775459.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207852530377.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207908923960.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648207985342962.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648208017349559.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">Window Robot Cleaner</td>
+                                        <td align="center">Aroma Diffuser</td>
+                                        <td align="center">Mosquito Killer Lamp</td>
+                                        <td align="center">Alarm Clock</td>
+                                        <td align="center">Others</td>
+                                    </tr>
+                                </table>
+
+                                <br>
+                                <br>
+
+                                <hr style="height:2px;border-width:0;background-color:black">
+                                <h2> Kitchen Appliances </h2>
+
+                                <table align="center">
+                                    <tr>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648208999417574.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209046226321.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209080843870.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209145246349.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+                                        <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209193194007.png"
+                                                width="200" height="200" style="margin:0px 50px"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td align="center">Water Purifier</td>
+                                        <td align="center">Air Fryer</td>
+                                        <td align="center">Kettle</td>
+                                        <td align="center">Sous Vide Cooker</td>
+                                        <td align="center">Capsule Coffee Machine</td>
+
+                                    </tr>
+
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209335417176.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209386336154.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209415122330.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209489658869.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209522974167.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center">Automatic Cooker</td>
+                                            <td align="center">Pressure Cookers</td>
+                                            <td align="center">Rice Cooker</td>
+                                            <td align="center">Microwave Ovens</td>
+                                            <td align="center">Ice Maker</td>
+
+                                        </tr>
+                                    </table>
+
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h2> Home Motor </h2>
+
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648209948552204.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648210012153683.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648210036299624.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648210089567825.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648210140583872.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center">Tubular Motor Curtain</td>
+                                            <td align="center">Motorized Flexible Rail Curtain</td>
+                                            <td align="center">Finger Robot</td>
+                                            <td align="center">Curtain Robot</td>
+                                            <td align="center">Lifting Table</td>
+
+                                        </tr>
+                                    </table>
+
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h2> Bathroom Accessories </h2>
+
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648211577979909.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648211666147761.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648211711626521.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648211758943851.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648211782591475.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center">Towel Racks</td>
+                                            <td align="center">Magic Mirrors</td>
+                                            <td align="center">Smart Toilet Lids</td>
+                                            <td align="center">Electrical Storage Water Heater</td>
+                                            <td align="center">Bath Heathers</td>
+                                        </tr>
+                                    </table>
+
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h2> Baby & Nursery </h2>
+
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648212016917730.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648212050634422.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center">Smart Clock</td>
+                                            <td align="center">Rocking Chair</td>
+                                        </tr>
+                                    </table>
+
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h2> Garden </h2>
+
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648212263247508.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648212296466688.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center">Plant Grower</td>
+                                            <td align="center">Smart Lawn Mowers</td>
+                                        </tr>
+                                    </table>
+
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h2> Others </h2>
+
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648212541708415.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center">Others</td>
+                                        </tr>
+                                    </table>
+                                </table>
+                                <hr style="height:5px;border-width:0;background-color:black">
+                            </div>
+
+                            <div id="gateway">
+                                <h1>Gateway Control</h1>
+                                <div style="background-color:white; width:80%">
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h3>Gateway</h3>
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648126511115673.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648212961737986.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648212996878371.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213031153180.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213057108249.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">LAN Zigbee Gateway</td>
+                                            <td align="center">Wi-Fi Zigbee Gateway</td>
+                                            <td align="center">Bluetooth Gateway</td>
+                                            <td align="center">Multi-Protocol Gateway</td>
+                                            <td align="center">Multi-Functional Gateway</td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213141623472.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213188116913.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213211548168.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">4G Gateway</td>
+                                            <td align="center">AVS Gateway</td>
+                                            <td align="center">Socket Gateway</td>
+                                        </tr>
+                                    </table>
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h3>Remote Controllers</h3>
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213474577629.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213524983512.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213573570206.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213604723344.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">IR Remote Controls</td>
+                                            <td align="center">RF+IR Remote Control</td>
+                                            <td align="center">AVS Voice Remote Controllers</td>
+                                            <td align="center">Multi-function Remote Control</td>
+                                        </tr>
+                                    </table>
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h3>Router</h3>
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648213951261930.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648214097285100.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">Router</td>
+                                            <td align="center">Repeater</td>
+                                        </tr>
+                                    </table>
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h3>Central Control System(CCS)</h3>
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648214330596124.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648214400971082.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">(CCS)Panel</td>
+                                            <td align="center">AV Box</td>
+                                        </tr>
+                                    </table>
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h3>Others</h3>
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220325/1648214531171255.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">Others</td>
+                                        </tr>
+                                    </table>
+                                    <hr style="height:5px;border-width:0;background-color:black">
+                                </div>
+
+                                <div id="pets"></div>
+                                <h1>Pets</h1>
+                                <div style="background-color:white; width:80%">
+                                    <hr style="height:5px;border-width:0;background-color:black">
+                                    <h3>Cats & Dogs Supplies</h3>
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648126722967520.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648358159336723.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648358191404700.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648358258560349.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648358304783254.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">Pet Feeder</td>
+                                            <td align="center">Pet Water Fountain</td>
+                                            <td align="center">Pet Teaser</td>
+                                            <td align="center">Smart Pet Beds & Furniture</td>
+                                            <td align="center">Cat Litter Box</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648358356563023.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648358437165506.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">Pet Robot</td>
+                                            <td align="center">Pet Air Purifier</td>
+                                        </tr>
+
+                                    </table>
+
+                                    <hr style="height:2px;border-width:0;background-color:black">
+                                    <h3>Fish & Aquarium</h3>
+                                    <table align="center">
+                                        <tr>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648358502770736.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                            <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648358558124401.png"
+                                                    width="200" height="200" style="margin:0px 50px"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td align="center">Aquarium Feeder</td>
+                                            <td align="center">Aquarium Lights</td>
+                                        </tr>
+                                    </table>
+                                    <hr style="height:5px;border-width:0;background-color:black">
+                                </div>
+
+                                <div id="exercise">
+                                    <h1>Exercise & Health</h1>
+                                    <div style="background-color:white; width:80%">
+                                        <hr style="height:5px;border-width:0;background-color:black">
+                                        <h3>Personal Care</h3>
+                                        <table align="center">
+                                            <tr>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648126915569455.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648359259202084.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648359287715897.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648359325480552.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648359366272264.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center">Body Fat Scales</td>
+                                                <td align="center">Kitchen Scales</td>
+                                                <td align="center">Adult Electric Toothbrushes</td>
+                                                <td align="center">Kids Electric Toothbrushes</td>
+                                                <td align="center">Smart Oral Irrigator</td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648359468980927.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648359553827073.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648359601971937.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648359651642763.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center">Face Cleaners</td>
+                                                <td align="center">Health Monitor</td>
+                                                <td align="center">Smart Shaving Machine</td>
+                                                <td align="center">Smart Hair Comb</td>
+                                            </tr>
+                                        </table>
+                                        <hr style="height:2px;border-width:0;background-color:black">
+                                        <h3>Wearables</h3>
+                                        <table align="center">
+                                            <tr>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648360905892705.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtek.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361241828975.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361283589205.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361319899159.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361350782556.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center">Sleep Detectors</td>
+                                                <td align="center">White Noise Sleep Machines</td>
+                                                <td align="center">Watches</td>
+                                                <td align="center">Bracelets</td>
+                                                <td align="center">Earbud</td>
+                                            </tr>
+                                        </table>
+                                        <hr style="height:2px;border-width:0;background-color:black">
+                                        <h3>Athletic Bodybuilding</h3>
+                                        <table align="center">
+                                            <tr>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361680635552.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361731825909.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361774835242.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361805280192.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361838809554.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center">Smart Rope Skipping</td>
+                                                <td align="center">Smart Resistance Band</td>
+                                                <td align="center">Smart Dumbbell</td>
+                                                <td align="center">Smart Rowing Machine</td>
+                                                <td align="center">Smart Abdominal Wheel</td>
+
+                                            </tr>
+                                        </table>
+                                        <hr style="height:2px;border-width:0;background-color:black">
+                                        <h3>Accessories</h3>
+                                        <table align="center">
+                                            <tr>
+                                                <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648361978885870.png"
+                                                        width="200" height="200" style="margin:0px 50px"></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center">Sports Water Bottles</td>
+                                            </tr>
+                                        </table>
+                                        <hr style="height:5px;border-width:0;background-color:black">
+                                    </div>
+
+                                    <div id="outdoor">
+                                        <h1>Outdoor & Travel</h1>
+                                        </p>
+                                        <div style="background-color:white; width:80%">
+                                            <hr style="height:5px;border-width:0;background-color:black">
+                                            <h3>Travel</h3>
+                                            <table align="center">
+                                                <tr>
+                                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220324/1648127100451134.png"
+                                                            width="200" height="200" style="margin:0px 50px"></td>
+                                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648362337310977.png"
+                                                            width="200" height="200" style="margin:0px 50px"></td>
+                                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648362216140893.png"
+                                                            width="200" height="200" style="margin:0px 50px"></td>
+                                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648362243492581.png"
+                                                            width="200" height="200" style="margin:0px 50px"></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td align="center">Electric Vehicle</td>
+                                                    <td align="center">Electric Inflator</td>
+                                                    <td align="center">Electric Vehicle Dashboard</td>
+                                                    <td align="center">Portable Wi-Fi</td>
+                                                </tr>
+                                            </table>
+                                            <hr style="height:2px;border-width:0;background-color:black">
+                                            <h3>Tracking</h3>
+                                            <table align="center">
+                                                <tr>
+                                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648362542214038.png"
+                                                            width="200" height="200" style="margin:0px 50px"></td>
+                                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648362586329756.png"
+                                                            width="200" height="200" style="margin:0px 50px"></td>
+                                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648362617675590.png"
+                                                            width="200" height="200" style="margin:0px 50px"></td>
+                                                    <td><img src="https://www.crabtekmall.com/image.php/shop/data/upload/media/user/10004/image/20220327/1648362650275102.png"
+                                                            width="200" height="200" style="margin:0px 50px"></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td align="center">Pet Tracker</td>
+                                                    <td align="center">Anti-Lost Tracker</td>
+                                                    <td align="center">Vehicle Tracker</td>
+                                                    <td align="center">Personal GPS Tracker</td>
+                                                </tr>
+                                            </table>
+                                            <hr style="height:5px;border-width:0;background-color:black">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+    </div>
+</body>
+
+</html>
